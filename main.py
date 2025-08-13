@@ -89,6 +89,7 @@ def main () :
                 pygame.quit()
                 exit()
 
+            #Clicking the start button starts the main game loop
             if event.type == pygame.MOUSEBUTTONDOWN:
                 x,y = pygame.mouse.get_pos()
                 if start_rect.collidepoint(x,y):
